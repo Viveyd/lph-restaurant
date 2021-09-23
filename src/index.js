@@ -119,6 +119,10 @@ const Restaurant = (function(){
         // Creates the nav-links on left side of footer
         let navLinks =  generateNavUL();
         navLinks.setAttribute('id', 'footer-ul');
+        // let navLI = [... navLinks.children];
+        // for(let i = 0; i < navLI.length; i++){
+        //     navLI[i].classList.add('footer-li');
+        // }
         navLinks.insertBefore(document.createTextNode('Los Pollos Hermanos'),navLinks.firstElementChild);
         leftDiv.appendChild(navLinks);
 

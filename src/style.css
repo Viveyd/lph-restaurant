@@ -410,6 +410,12 @@ body{
     align-self: center;
     margin-left: 1em;
 }
+#footer-ul-title{
+    font-weight: bolder;
+}
+.footer-li{
+    font-weight: 500;
+}
 
 @media (min-width: 600px){
     #header{
